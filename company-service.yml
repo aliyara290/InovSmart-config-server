@@ -1,6 +1,3 @@
-server:
-  port: 8081
-
 spring:
   application:
     name: company-service
@@ -19,4 +16,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 greeting:
-  name: hello
+  name: hello from parent
