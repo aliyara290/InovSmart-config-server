@@ -20,7 +20,7 @@ spring:
           registration:
             keycloak:
               client-id: "company-service"
-              client-secret: "Dtr70ZJR4H9h09HizMTPmg168mJ7EJ9U"
+              client-secret: "t9xs1cPvHHhI7ET9F3CKMqkxzfXssdpm"
               authorization-grant-type: client_credentials
           provider:
             keycloak:
