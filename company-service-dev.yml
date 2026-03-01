@@ -4,27 +4,27 @@ spring:
     username: aliyara29
     password: Yara2001
     driver-class-name: org.postgresql.Driver
-    jpa:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
       hibernate:
-        ddl-auto: update
-      show-sql: true
-      properties:
-        hibernate:
-          format_sql: true
-    security:
-      oauth2:
-        resourceserver:
-          jwt:
-            issuer-uri: "http://localhost:8090/realms/InovSmart"
-        client:
-          registration:
-            keycloak:
-              client-id: "company-service"
-              client-secret: "t9xs1cPvHHhI7ET9F3CKMqkxzfXssdpm"
-              authorization-grant-type: client_credentials
-          provider:
-            keycloak:
-              token-uri: "http://localhost:8090/realms/InovSmart/protocol/openid-connect/token"
+        format_sql: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "http://localhost:8090/realms/InovSmart"
+      client:
+        registration:
+          keycloak:
+            client-id: "company-service"
+            client-secret: "t9xs1cPvHHhI7ET9F3CKMqkxzfXssdpm"
+            authorization-grant-type: client_credentials
+        provider:
+          keycloak:
+            token-uri: "http://localhost:8090/realms/InovSmart/protocol/openid-connect/token"
 
 keycloak:
   admin-url: "http://localhost:8090"
