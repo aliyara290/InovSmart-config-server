@@ -26,6 +26,6 @@ spring:
             keycloak:
               token-uri: "http://localhost:8090/realms/InovSmart/protocol/openid-connect/token"
 
-  keycloak:
-    admin-url: "http://localhost:8090"
-    realm: "InovSmart"
+keycloak:
+  admin-url: "http://localhost:8090"
+  realm: "InovSmart"
