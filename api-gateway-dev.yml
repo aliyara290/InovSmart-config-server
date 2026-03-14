@@ -3,16 +3,12 @@ logging:
     root: INFO
     com.aliyara.apigatewat: DEBUG
 
-    # Spring Cloud Gateway routing & filters
     org.springframework.cloud.gateway: DEBUG
 
-    # Reactive WebFlux layer
     org.springframework.web.reactive: INFO
 
-    # Reactive Netty (HTTP engine)
     reactor.netty: INFO
     io.netty: WARN
 
-    # Spring Security (reactive)
     org.springframework.security: DEBUG
     org.springframework.security.oauth2: DEBUG

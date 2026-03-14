@@ -19,8 +19,8 @@ spring:
       client:
         registration:
           keycloak:
-            client-id: "company-service"
-            client-secret: "t9xs1cPvHHhI7ET9F3CKMqkxzfXssdpm"
+            client-id: "company-client"
+            client-secret: "KNHK3oDDAs6C8seb9hNSRU2QuSf9eqs6"
             authorization-grant-type: client_credentials
         provider:
           keycloak:
