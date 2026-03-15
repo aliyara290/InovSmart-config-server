@@ -51,7 +51,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics,prometheus,refresh
+        include: health,info,metrics,prometheus,refresh, beans
   endpoint:
     health:
       show-details: when-authorized
