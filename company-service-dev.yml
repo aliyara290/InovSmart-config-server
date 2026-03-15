@@ -31,8 +31,8 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/InovSmart
-          jwk-set-uri: http://localhost:8080/realms/InovSmart/protocol/openid-connect/certs
+          issuer-uri: http://localhost:8090/realms/InovSmart
+          jwk-set-uri: http://localhost:8090/realms/InovSmart/protocol/openid-connect/certs
 
 keycloak:
   base-url: ${KEYCLOAK_BASE_URL:http://localhost:8090}
