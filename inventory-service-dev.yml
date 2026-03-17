@@ -18,10 +18,10 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/invosmart
+          issuer-uri: http://localhost:8090/realms/invosmart
 
 management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,beans,refresh
