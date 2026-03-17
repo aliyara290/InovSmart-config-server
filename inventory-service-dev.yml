@@ -18,7 +18,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8090/realms/invosmart
+          issuer-uri: http://localhost:8090/realms/InovSmart
 
 management:
   endpoints:
