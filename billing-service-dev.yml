@@ -40,7 +40,7 @@ eureka:
 
 logging:
   level:
-    com.aliyara.billingservice: DEBUG
+    com.aliyara.billingservice: INFO
 
 management:
   endpoints:
