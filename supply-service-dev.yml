@@ -19,3 +19,6 @@ spring:
         jwt:
           issuer-uri: http://localhost:8090/realms/InovSmart
           jwk-set-uri: http://localhost:8090/realms/InovSmart/protocol/openid-connect/certs
+logging:
+  level:
+    com.aliyara.supplyservice: DEBUG
